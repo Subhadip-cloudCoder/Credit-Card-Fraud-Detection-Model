@@ -11,6 +11,12 @@ Credit card fraud detection is the process of identifying stolen or unauthorized
 
 This project is an end-to-end Machine Learning pipeline designed to tackle this exact problem. It utilizes data preprocessing, synthetic minority over-sampling (SMOTE), and a comparative analysis of multiple algorithms to evaluate how different models behave when hunting for hidden anomalies in financial data.
 
+### The Data Challenge
+The initial dataset contained an extreme class imbalance, which causes standard AI models to fail.
+
+![Original Imbalance](images/imbalance_graph.png)
+![Average Transaction Amounts](images/imbalance_data_graph.png)
+
 ---
 
 ## 🛠️ Tech Stack & Tools Used
@@ -19,8 +25,11 @@ This project is an end-to-end Machine Learning pipeline designed to tackle this 
 * **Data Visualization:** Matplotlib, Seaborn
 * **Machine Learning & Modeling:** Scikit-Learn, XGBoost
 * **Data Balancing:** Imbalanced-Learn (SMOTE)
-* **Model Serialization:** Joblib
+### Applying SMOTE (Synthetic Minority Over-sampling Technique)
+To allow the algorithms to learn the fraud patterns, the data was perfectly balanced by synthetically generating minority class examples.
 
+![SMOTE Balanced Data](images/balance_data_graph.png)
+* **Model Serialization:** Joblib
 ---
 
 ## 🧠 Machine Learning Models Evaluated
@@ -48,11 +57,15 @@ Rather than forcing a single "champion" model, this project presents a side-by-s
 * How boosting models (XGBoost) require balanced data to uncover complex boundaries.
 * How ensemble bagging (Random Forest / Extra Trees) handles synthetic data without massive overfitting.
 
+### Final Model Performance (Balanced Data)
+
+![Model Performance Comparison](images/balanced_data_model_output_graph.png)
+
 ---
 
 ## 💡 Conclusion
 Handling highly imbalanced data requires a delicate intersection of data engineering and algorithm selection. This project successfully demonstrates that balancing the dataset using SMOTE dramatically alters the learning behavior of artificial intelligence. By building a dynamic comparison pipeline, we can observe exactly how different mathematical approaches prioritize catching fraud versus preventing false alarms, ultimately allowing a business to select the exact algorithm that fits their current risk tolerance.
 
 ---
-**Author:** Neha Pal
+**Author:** Subhadip Biswas
 *Passionate about building robust, data-driven systems and scalable machine learning pipelines.*
