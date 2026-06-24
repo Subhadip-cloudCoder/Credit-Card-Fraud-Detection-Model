@@ -68,8 +68,6 @@ Handling highly imbalanced data requires a delicate intersection of data enginee
 
 ---
 
----
-
 ## 📬 Let's Connect!
 I enjoy discussing Data Science, Machine Learning, and innovative tech projects. Whether you have a question about this model, some feedback, or just want to connect, feel free to reach out!
 
