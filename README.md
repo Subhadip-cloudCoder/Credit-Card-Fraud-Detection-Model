@@ -65,7 +65,3 @@ Rather than forcing a single "champion" model, this project presents a side-by-s
 
 ## 💡 Conclusion
 Handling highly imbalanced data requires a delicate intersection of data engineering and algorithm selection. This project successfully demonstrates that balancing the dataset using SMOTE dramatically alters the learning behavior of artificial intelligence. By building a dynamic comparison pipeline, we can observe exactly how different mathematical approaches prioritize catching fraud versus preventing false alarms, ultimately allowing a business to select the exact algorithm that fits their current risk tolerance.
-
----
-**Author:** Subhadip Biswas
-*Passionate about building robust, data-driven systems and scalable machine learning pipelines.*
