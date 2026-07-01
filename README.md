@@ -78,6 +78,7 @@ I enjoy discussing Data Science, Machine Learning, and innovative tech projects.
 [![Email](https://img.shields.io/badge/Email-subhadip2622%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:subhadip2622@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Subhadip-cloudCoder)
 [![X (Twitter)](https://img.shields.io/badge/X-Profile-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/subhadipcodes?s=11)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/subhadip-biswas-ba0a5a419)
 
 <br>
 
